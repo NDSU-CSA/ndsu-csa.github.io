@@ -1,7 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Layout from '../components/layout'
+import Layout from '../components/layout/layout'
 import SEO from '../components/seo'
 
 const About = () => (
@@ -47,7 +47,7 @@ const About = () => (
                     how to protect themselves in the online world. 
                 </p>
 
-                <h2>Mission Statement</h2>
+                <h2>Our Mission</h2>
                 <p>
                     The goal of the cybersecurity student organization is to increase knowledge of current cybersecurity practices among the NDSU Students through 
                     exercises, lectures, and by working with community members in the networking and computing professions. The organization will support teams to 
