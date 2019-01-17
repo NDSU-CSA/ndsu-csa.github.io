@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { StaticQuery } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 
 import ContactCard from '../components/card/contactCard'
 
@@ -23,14 +23,13 @@ const Contact = () => (
                 <SEO title="Contact" />
                 <h1>Contact</h1>
                 <p>
-                    If you are a student at {data.site.siteMetadata.schoolFull}, then the easiest way to contact us is through our 
-                    <a href="https://myndsu.ndsu.edu/organization/csa">My {data.site.siteMetadata.school} Page.</a>
+                    If you are a student at {data.site.siteMetadata.schoolFull}, then the best way to contact us is through 
+                    our <a href="https://myndsu.ndsu.edu/organization/csa">My {data.site.siteMetadata.school} Page.</a>
                 </p>
                 <p>
-                    If you are not a student at {data.site.siteMetadata.schoolFull}, then the best way to contact us is through either 
-                    our President or Faculty Advisor:
+                    If you are not a student at {data.site.siteMetadata.schoolFull}, then the best way to contact us is through 
+                    one of our club representatives:
                 </p>
-                <br />
                 <ContactCard 
                     title={data.site.siteMetadata.contactInfo.president.title} 
                     name={data.site.siteMetadata.contactInfo.president.name} 

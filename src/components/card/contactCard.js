@@ -1,22 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const renderIfNotEmpty = (content) => {
-    if(content !== '') {
-        return (<p>{content}</p>);
-    } else {
-        return ({});
-    }
-}
-
 function ContactCard( { title, name, subTitle, email, phoneNumber } ) {
     return (
-        <div>
-            <p><em>{title}:</em></p>
-            <p>{name}</p>
-            <p>{subTitle}</p>
-            <p><a href={`mailto:${email}`}>{email}</a></p>
-            <p>{phoneNumber}</p>
+        <div style={{
+            lineHeight: "0.5em"
+        }}>
+            <div style={{
+                padding: "20px 20px 0px 50px"
+            }}>
+                <p><b>{title}:</b></p>
+                <p>{name}</p>
+                <p>{subTitle}</p>
+                <p><a href={`mailto:${email}`}>{email}</a></p>
+                <p>{phoneNumber}</p>
+            </div>
         </div>
     );
 }

@@ -12,35 +12,35 @@ import NavHead from '../components/navbar/navHead'
  * @param siteTitle title for site, placed in large letters in banner
  */
 const Header = ({ siteTitle }) => (
-  <div style={{
-      background: `darkgreen`,
-      marginBottom: `1.45rem`,
-    }}>
-
     <div style={{
-      maxWidth: 960,
-      display: `flex`,
-      flexDirection: `row`,
-      flexGrow: 1,
-      alignItems: `center`
+        background: `darkgreen`,
+        marginBottom: `1.45rem`,
     }}>
-      <NavHead link='/' body={siteTitle} />
 
-      <NavItem link='/about' body='ABOUT' />
-      <NavItem link='/meetings' body='MEETINGS' />
-      <NavItem link='/contact' body='CONTACT' />
+        <div style={{
+            maxWidth: 960,
+            display: `flex`,
+            flexDirection: `row`,
+            flexGrow: 1,
+            alignItems: `center`
+        }}>
+            <NavHead link='/' body={siteTitle} />
+
+            <NavItem link='/about' body='ABOUT' />
+            <NavItem link='/meetings' body='MEETINGS' />
+            <NavItem link='/contact' body='CONTACT' />
+        </div>
     </div>
-  </div>
 );
 
 // declare property types
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+    siteTitle: PropTypes.string,
 };
 
 // default values if value not given
 Header.defaultProps = {
-  siteTitle: ``,
+    siteTitle: ``,
 };
 
 export default Header;

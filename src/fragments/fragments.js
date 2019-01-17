@@ -1,3 +1,5 @@
+import { graphql } from 'gatsby';
+
 export const SchoolNameQuery = graphql`
     fragment SchoolName on Site {
         siteMetadata {
