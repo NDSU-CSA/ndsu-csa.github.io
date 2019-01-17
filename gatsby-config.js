@@ -1,11 +1,27 @@
 module.exports = {
   siteMetadata: {
-    title: `NDSU Cyber Security Student Association`,
-    titleShort: `NDSU CSA`,
-    description: `The NDSU Cyber Security Student Association strives to be the very best at any and all legal hacking activites.`,
+    title: `[REDACTED] Cybersecurity Student Association`,
+    titleShort: `[X] CSA`,
+    description: `The [REDACTED] Cybersecurity Student Association strives to be the very best at any and all legal hacking activites.`,
     author: `Jack Hance`,
     school: `[REDACTED]`,
-    schoolFull: `[REDACTED]`
+    schoolFull: `[REDACTED]`,
+    contactInfo: {
+      president: {
+        title: "President",
+        name: "Kelvin Boatey",
+        subTitle: "",
+        email: "kelvin.boatey@ndsu.edu",
+        phoneNumber: ""
+      },
+      facultyAdvisor: {
+        title: "Faculty Advisor",
+        name: "Jeremy Straub",
+        subTitle: "Assistant Professor",
+        email: "jeremy.straub@ndsu.edu",
+        phoneNumber: "701-231-8196"
+      }
+    }
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
