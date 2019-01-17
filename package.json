@@ -23,11 +23,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "deploy": "gatsby build && gh-pages -d public -o pages -b master"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
@@ -39,8 +35,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "scripts": {
-    "deploy":"gatsby build && gh-pages -d public -o pages -b master"
   }
 }

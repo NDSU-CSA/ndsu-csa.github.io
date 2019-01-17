@@ -9,9 +9,8 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hello</h1>
-    <p>Welcome to the NDSU Cyber Security Student Association Homepage</p>
-    <p>We like to have fun here.</p>
+    <h1>Welcome to the NDSU Cyber Security Student Association Homepage</h1>
+    <p>We are a club of many individuals that share a common interest of creting technology, and breaking it.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
