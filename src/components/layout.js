@@ -5,42 +5,48 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import './layout.css'
 
+/**
+ * Layout
+ * 
+ * Provides a layout for the site, puts a header and footer around content given
+ * 
+ * @param children inner content for site
+ */
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
         site {
           siteMetadata {
-            title
+            title,
+            titleShort,
+            author
           }
         }
       }
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
+        <Header siteTitle={data.site.siteMetadata.titleShort} />
+        <div style={{
             margin: `0 auto`,
             maxWidth: 960,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
-          }}
-        >
+          }}>
           {children}
           <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            Copyright {new Date().getFullYear()} {data.site.siteMetadata.author}
           </footer>
         </div>
       </>
     )}
   />
-)
+);
 
+// declare property types
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

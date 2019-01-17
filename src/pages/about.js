@@ -9,8 +9,7 @@ const About = () => (
         <SEO title="About" />
         <h1>This is an about page</h1>
         <p>There will be information here once there is anything we are willing to share</p>
-        <Link to="/" >Home</Link>
     </Layout>
 );
 
-export default About
+export default About;

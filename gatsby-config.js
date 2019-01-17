@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `NDSU Cyber Security Student Association`,
+    titleShort: `NDSU CSA`,
     description: `The NDSU Cyber Security Student Association strives to be the very best at any and all legal hacking activites.`,
-    author: `@NDSU-CSA`,
+    author: `Jack Hance`,
+    school: `[REDACTED]`,
+    schoolFull: `[REDACTED]`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
