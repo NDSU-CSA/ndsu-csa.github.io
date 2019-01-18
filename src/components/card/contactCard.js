@@ -1,6 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+/**
+ * 
+ * Contact Card
+ * 
+ * Creates a formatted contact card with given information, used specifically on
+ * /contact
+ * 
+ * @param title 
+ * @param name 
+ * @param subTitle e.g. assistant professor
+ * @param email 
+ * @param phoneNumber
+ * @returns formatted contact card
+ */
 function ContactCard( { title, name, subTitle, email, phoneNumber } ) {
     return (
         <div style={{

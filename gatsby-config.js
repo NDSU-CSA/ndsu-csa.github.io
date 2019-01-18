@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `[REDACTED] Cybersecurity Student Association`,
-        titleShort: `[X] CSA`,
+        titleShort: `NDSU CSA`,
         description: `The [REDACTED] Cybersecurity Student Association strives to be the very best at any and all legal hacking activites.`,
         author: `Jack Hance`,
         school: `[REDACTED]`,

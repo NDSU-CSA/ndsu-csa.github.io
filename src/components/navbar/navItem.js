@@ -10,11 +10,10 @@ import { Link } from 'gatsby'
  * 
  * @param link where to link to
  * @param body text of item
+ * @returns formatted nav item element
  */
 const NavItem = ( { link, body } ) => (
-    <div style={{
-        padding: `1.45rem`
-    }}>
+    <div class="nav-item">
         <h4 style={{ margin: 0 }}>
             <Link to={link} style={{
                 color: `white`,

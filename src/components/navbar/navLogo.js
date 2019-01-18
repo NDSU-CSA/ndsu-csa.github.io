@@ -3,10 +3,18 @@ import PropTypes from 'prop-types'
 
 import { Link } from 'gatsby'
 
-const NavHead = ( { link, body } ) => (
-    <div style={{
-    padding: `1.45rem`
-    }}>
+/**
+ * 
+ * NavLogo
+ * 
+ * Takes given information and turns into the head of the navbar
+ * 
+ * @param link link to
+ * @param body label text
+ * @returns a nav head element 
+ */
+const NavLogo = ( { link, body } ) => (
+    <div class="nav-logo">
         <h3 style={{ margin: 0 }}>
             <Link to={link} style={{
                 color: `white`,
@@ -18,14 +26,14 @@ const NavHead = ( { link, body } ) => (
     </div>
 );
 
-NavHead.propTypes = {
+NavLogo.propTypes = {
     link: PropTypes.string,
     body: PropTypes.string
 }
 
-NavHead.defaultProps = {
+NavLogo.defaultProps = {
     link: ``,
     body: ``
 }
 
-export default NavHead
+export default NavLogo

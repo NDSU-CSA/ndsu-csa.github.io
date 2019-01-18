@@ -2,7 +2,10 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 import NavItem from '../components/navbar/navItem'
-import NavHead from '../components/navbar/navHead'
+import NavLogo from '../components/navbar/navLogo'
+import NavBody from '../components/navbar/navBody'
+
+import '../css/header.css'
 
 /**
  * Header
@@ -12,24 +15,19 @@ import NavHead from '../components/navbar/navHead'
  * @param siteTitle title for site, placed in large letters in banner
  */
 const Header = ({ siteTitle }) => (
-    <div style={{
-        background: `darkgreen`,
-        marginBottom: `1.45rem`,
-    }}>
-
-        <div style={{
-            maxWidth: 960,
-            display: `flex`,
-            flexDirection: `row`,
-            flexGrow: 1,
-            alignItems: `center`
-        }}>
-            <NavHead link='/' body={siteTitle} />
-
+    <div class="nav">
+        <div class="nav-head">
+            <NavLogo link='/' body={siteTitle} />
+            <div class="nav-hamburger" style={{verticalAlign: `center`}}><h3>HAM</h3></div>
+        </div>
+        <NavBody>
             <NavItem link='/about' body='ABOUT' />
             <NavItem link='/meetings' body='MEETINGS' />
             <NavItem link='/contact' body='CONTACT' />
-        </div>
+
+            <NavItem link='/dummy' body='DUMMY' />
+            <NavItem link='/dummy' body='DUMMY' />
+        </NavBody>
     </div>
 );
 
