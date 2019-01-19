@@ -54,6 +54,7 @@
     }
     .nav-head, .nav-item  {
         border: none;
+        height: auto;
     }
 }
 
@@ -101,6 +102,6 @@
             transition: height 0.25s ease-in;
 }
 
-.slide-down>.nav-head, .slide-down>.nav-item {
+.slide-down>.nav-head, .slide-down>.nav-item, .nav {
     border-bottom: 3px solid #074900;
 }

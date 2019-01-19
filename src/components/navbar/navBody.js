@@ -4,19 +4,24 @@ import React from 'react';
 class NavBody extends React.Component {
     constructor(props) {
         super(props);
+
+        this.state = {
+            value : "up"
+        };
     }
     
-    slideDown() {
-
-    }
-
-    slideUp() {
-        
+    getPositionClass(state) {
+        if(state === "down") {
+            return "slide-down"
+        }
+        if(state === "up") {
+            return "slide-up"
+        }
     }
 
     render() {
         return (
-            <div class="nav-body">
+            <div className={`nav-body ${this.getPositionClass(this.state.value)}`}>
                 {this.props.children}
             </div>
         )
