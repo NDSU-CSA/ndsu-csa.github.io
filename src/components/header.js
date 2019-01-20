@@ -2,9 +2,6 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 import NavItem from '../components/navbar/navItem'
-import NavLogo from '../components/navbar/navLogo'
-import NavBody from '../components/navbar/navBody'
-import NavHead from '../components/navbar/navHead'
 import Nav from '../components/navbar/nav'
 
 import '../css/header.css'
@@ -21,27 +18,7 @@ const Header = ({ siteTitle }) => (
         <NavItem link='/about' body='ABOUT' />
         <NavItem link='/meetings' body='MEETINGS' />
         <NavItem link='/contact' body='CONTACT' />
-
-        <NavItem link='/dummy' body='DUMMY' />
-        <NavItem link='/dummy' body='DUMMY' />
     </Nav>
-
-    /*
-    <Nav>
-        <NavHead>
-            <NavLogo link='/' body={siteTitle} />
-            <div class="nav-hamburger" style={{verticalAlign: `center`}}><h3>HAM</h3></div>
-        </NavHead>
-        <NavBody>
-            <NavItem link='/about' body='ABOUT' />
-            <NavItem link='/meetings' body='MEETINGS' />
-            <NavItem link='/contact' body='CONTACT' />
-
-            <NavItem link='/dummy' body='DUMMY' />
-            <NavItem link='/dummy' body='DUMMY' />
-        </NavBody>
-    </Nav>
-    */
 );
 
 // declare property types
