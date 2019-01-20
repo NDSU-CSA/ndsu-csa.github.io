@@ -1,11 +1,11 @@
 module.exports = {
     siteMetadata: {
-        title: `[REDACTED] Cybersecurity Student Association`,
-        titleShort: `[READACTIED] CSA`,
-        description: `The [REDACTED] Cybersecurity Student Association strives to be the very best at any and all legal hacking activites.`,
+        title: `NDSU Cybersecurity Student Association`,
+        titleShort: `NDSU CSA`,
+        description: `The NDSU Cybersecurity Student Association strives to be the very best at any and all legal hacking activites.`,
         author: `Jack Hance`,
-        school: `[REDACTED]`,
-        schoolFull: `[REDACTED]`,
+        school: `NDSU`,
+        schoolFull: `North Dakota State University`,
         contactInfo: {
             president: {
                 title: "President",
