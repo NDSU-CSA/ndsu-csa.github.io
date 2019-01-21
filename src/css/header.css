@@ -4,6 +4,8 @@
     margin-bottom: 1.45rem;
     display: flex;
     flex-direction: row;
+    flex-shrink: 0;
+    z-index: 999;
 }
 
 .nav-logo, .nav-item, .nav-hamburger {
@@ -94,6 +96,10 @@
     .slide-up>.nav-head, .slide-up>.nav-item {
         border-bottom: none;
     }
+
+    .slide-up>* {
+        display: none;
+    }
     
     .slide-down {
         height: auto;
@@ -106,5 +112,9 @@
     
     .slide-down>.nav-head, .slide-down>.nav-item {
         border-bottom: 3px solid #074900;
+    }
+
+    .slide-down>* {
+        display: show;
     }
 }
