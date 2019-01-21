@@ -1,42 +1,34 @@
-import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
+import NavItem from '../components/navbar/navItem'
+import Nav from '../components/navbar/nav'
+
+import '../css/header.css'
+
+/**
+ * Header
+ * 
+ * Creates the site banner
+ * 
+ * @param siteTitle title for site, placed in large letters in banner
+ */
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: `darkgreen`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
+    <Nav siteTitle={siteTitle}>
+        <NavItem link='/about' body='ABOUT' />
+        <NavItem link='/meetings' body='MEETINGS' />
+        <NavItem link='/contact' body='CONTACT' />
+    </Nav>
+);
 
+// declare property types
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+    siteTitle: PropTypes.string,
+};
 
+// default values if value not given
 Header.defaultProps = {
-  siteTitle: ``,
-}
+    siteTitle: ``,
+};
 
-export default Header
+export default Header;

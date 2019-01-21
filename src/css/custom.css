@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, html, #___gatsby, #___gatsby>div {
+    height: 100vh;
+    min-height: 100vh;
+}
+body, html {
+    font-family: 'Open Sans', georgia, serif;
+}
+.site {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+}
+.site-content {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0px 1.0875rem 1.45rem;
+    padding-top: 0;
+    flex: 1 0 auto;
+}
+footer {
+    background-color: white;
+    padding-bottom: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+.footer-content {
+    font-size: 14px;
+}
+

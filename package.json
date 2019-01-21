@@ -13,6 +13,7 @@
     "gatsby-plugin-sharp": "^2.0.14",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
+    "npm": "^6.6.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -23,11 +24,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public -o pages -b master",
     "develop": "gatsby develop",
-    "start": "npm run develop",
-    "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "start": "npm run develop"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
@@ -39,8 +38,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "scripts": {
-    "deploy":"gatsby build && gh-pages -d public -o pages -b master"
   }
 }

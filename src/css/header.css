@@ -1,0 +1,120 @@
+
+.nav {
+    background: darkgreen;
+    margin-bottom: 1.45rem;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    z-index: 999;
+}
+
+.nav-logo, .nav-item, .nav-hamburger {
+    padding: 1.45rem;
+}
+
+.nav-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-body {
+    max-width: 960;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+}
+
+@media(min-width: 900px) {
+    .nav-hamburger {
+        display: none;
+    }
+
+    .nav {
+        margin-bottom: 1.45rem;
+        flex-direction: row;
+    }
+    
+    .nav-logo, .nav-item, .nav-hamburger {
+        padding: 1.45rem;
+    }
+    
+    .nav-head {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-body {
+        max-width: 960;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        align-items: center;
+    }
+    .nav-head, .nav-item, .slide-up>.nav-head, .slide-up>.nav-item, .slide-down>.nav-head, .slide-down>.nav-item  {
+        border: none;
+        height: auto;
+    }
+    .slide-down, .slide-up {
+        height: auto;
+    }
+}
+
+@media(max-width: 900px) {
+    .nav {
+        flex-direction: column;
+    }
+    .nav-body {
+        flex-direction: column;
+        align-items: left;
+    }
+    .nav-hamburger {
+        display: show;
+    }
+    .nav-logo, .nav-hamburger {
+        padding: 0.5rem;
+    }
+    .nav-head, .nav-item  {
+        border-bottom: 3px solid #074900;
+    }
+    .nav-item {
+        width: 100%;
+    }
+
+    .slide-up {
+        height: 0px;
+        -webkit-transition: height 0.25s ease-in;
+           -moz-transition: height 0.25s ease-in;
+            -ms-transition: height 0.25s ease-in;
+             -o-transition: height 0.25s ease-in;
+                transition: height 0.25s ease-in;
+    }
+    
+    .slide-up>.nav-head, .slide-up>.nav-item {
+        border-bottom: none;
+    }
+
+    .slide-up>* {
+        display: none;
+    }
+    
+    .slide-down {
+        height: auto;
+        -webkit-transition: height 0.25s ease-in;
+           -moz-transition: height 0.25s ease-in;
+            -ms-transition: height 0.25s ease-in;
+             -o-transition: height 0.25s ease-in;
+                transition: height 0.25s ease-in;
+    }
+    
+    .slide-down>.nav-head, .slide-down>.nav-item {
+        border-bottom: 3px solid #074900;
+    }
+
+    .slide-down>* {
+        display: show;
+    }
+}

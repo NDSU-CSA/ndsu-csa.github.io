@@ -3,6 +3,18 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+/**
+ * SEO
+ * 
+ * provides the site with meta tags of the given information
+ * 
+ * @param description
+ * @param lang
+ * @param meta
+ * @param keywords
+ * @param title
+ * @returns meta elements
+ */
 function SEO({ description, lang, meta, keywords, title }) {
   return (
     <StaticQuery
