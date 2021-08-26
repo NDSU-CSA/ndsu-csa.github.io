@@ -1,0 +1,8 @@
+---
+permalink: /robots.txt
+---
+
+User-agent: *
+Disallow: /
+
+# sorry, nothing fun here (yet)

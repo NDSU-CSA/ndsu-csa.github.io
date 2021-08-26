@@ -1,0 +1,162 @@
+{
+    "officers": [
+        {
+            "name": "Jack Hance",
+            "email": "jack.hance@ndsu.edu"
+        },
+        {
+            "name": "Cayden Schmandt",
+            "email": "cayden.schmandt@ndsu.edu"
+        },
+        {
+            "name": "Cameron Kolodjski",
+            "email": "cameron.kolodjski@ndsu.edu"
+        },
+        {
+            "name": "Devin Gluesing",
+            "email": "devin.gluesing@ndsu.edu"
+        }
+    ],
+    "schedule": [
+        {
+            "weekday": "sunday",
+            "time": "",
+            "location": "",
+            "description": ""
+        },
+        {
+            "weekday": "monday",
+            "time": "",
+            "location": "",
+            "description": ""
+        },
+        {
+            "weekday": "tuesday",
+            "time": "",
+            "location": "",
+            "description": ""
+        },
+        {
+            "weekday": "wednesday",
+            "time": "6:00PM",
+            "location": "QBB 422",
+            "description": "Weekly Mainline Meeting"
+        },
+        {
+            "weekday": "thursday",
+            "time": "",
+            "location": "",
+            "description": ""
+        },
+        {
+            "weekday": "friday",
+            "time": "",
+            "location": "",
+            "description": ""
+        },
+        {
+            "weekday": "saturday",
+            "time": "Varies",
+            "location": "Varies",
+            "description": "Occasional Advanced Meetings"
+        }
+    ],
+    "semester_schedule": [
+        {
+            "week": 1,
+            "date": "Sept. 1st",
+            "topic": "Lock Picking & Pizza",
+            "presenter": "Jack",
+            "event": "Involvement Expo, Sept. 1st"
+        },
+        {
+            "week": 2,
+            "date": "Sept. 8th",
+            "topic": "Into to Soldering",
+            "presenter": "Mac"
+        },
+        {
+            "week": 3,
+            "date": "Sept. 15th",
+            "topic": "Intro to Linux",
+            "presenter": "Cameron"
+        },
+        {
+            "week": 4,
+            "date": "Sept. 22nd",
+            "topic": "Wifi Hacking and Wireshark",
+            "presenter": "Cayden"
+        },
+        {
+            "week": 5,
+            "date": "Sept. 29th",
+            "topic": "NCL Prep",
+            "presenter": "-"
+        },
+        {
+            "week": 6,
+            "date": "Oct. 6th",
+            "topic": "[No meeting]",
+            "presenter": "-",
+            "event": "Cybercon Conference, Oct. 5th & 6th"
+        },
+        {
+            "week": 7,
+            "date": "Oct. 13th",
+            "topic": "Intro to Reconnaissance",
+            "presenter": "Devin",
+            "event": "NCL Preseason, Oct. 11th-18th"
+        },
+        {
+            "week": 8,
+            "date": "Oct. 20th",
+            "topic": "[TBD]",
+            "presenter": "[TBD]",
+            "event": "NCL Individual, Oct. 22nd-24th"
+        },
+        {
+            "week": 9,
+            "date": "Oct. 27th",
+            "topic": "Roomba Hacking",
+            "presenter": "Elliot"
+        },
+        {
+            "week": 10,
+            "date": "Nov. 3rd",
+            "topic": "The Dark Web, Crypto, and Privacy",
+            "presenter": "Noah",
+            "event": "NCL Team, Nov. 5th-7th"
+        },
+        {
+            "week": 11,
+            "date": "Nov. 10th",
+            "topic": "[TBD]",
+            "presenter": "[TBD]",
+            "event": "Cyberforce, Nov. 12th & 13th"
+        },
+        {
+            "week": 12,
+            "date": "Nov. 17th",
+            "topic": "Intro to Game Hacking",
+            "presenter": "Jack"
+        },
+        {
+            "week": 13,
+            "date": "Nov. 24th",
+            "topic": "Android/APK Reverse Engineering",
+            "presenter": "Devin"
+        },
+        {
+            "week": 14,
+            "date": "Dec. 1st",
+            "topic": "[TBD]",
+            "presenter": "[TBD]"
+        },
+        {
+            "week": 15,
+            "date": "Dec. 8th",
+            "topic": "Hacker Movie Night",
+            "presenter": "-"
+        }
+    ]
+}
