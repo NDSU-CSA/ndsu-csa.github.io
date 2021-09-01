@@ -20,44 +20,37 @@
     "schedule": [
         {
             "weekday": "sunday",
-            "time": "",
-            "location": "",
+            "whenwhere": "",
             "description": ""
         },
         {
             "weekday": "monday",
-            "time": "",
-            "location": "",
+            "whenwhere": "",
             "description": ""
         },
         {
             "weekday": "tuesday",
-            "time": "",
-            "location": "",
+            "whenwhere": "",
             "description": ""
         },
         {
             "weekday": "wednesday",
-            "time": "6:00PM",
-            "location": "QBB 422",
+            "whenwhere": "6:00PM at QBB 422",
             "description": "Weekly Mainline Meeting"
         },
         {
             "weekday": "thursday",
-            "time": "",
-            "location": "",
+            "whenwhere": "",
             "description": ""
         },
         {
             "weekday": "friday",
-            "time": "",
-            "location": "",
+            "whenwhere": "",
             "description": ""
         },
         {
             "weekday": "saturday",
-            "time": "Varies",
-            "location": "Varies",
+            "whenwhere": "Time and locale varies",
             "description": "Occasional Advanced Meetings"
         }
     ],
@@ -149,14 +142,52 @@
         {
             "week": 14,
             "date": "Dec. 1st",
-            "topic": "[TBD]",
-            "presenter": "[TBD]"
+            "topic": "CSA Alumni Presentation",
+            "presenter": "Demitrius Fenton"
         },
         {
             "week": 15,
             "date": "Dec. 8th",
             "topic": "Hacker Movie Night",
             "presenter": "-"
+        }
+    ],
+    "faq": [
+        {
+            "question": "Do I need cybersecurity experience to join?",
+            "answer": "Nope! As long as you are willing to learn and know how to use a keyboard, we accept anyone of any skill level! We try our best to start easy at the beginning of the school year and slowly increase difficulty over time, we also have extra activites for those that may already have experience and are looking for a challenge."
+        },
+        {
+            "question": "Is there any cost to join?",
+            "answer": "Nope, it is completely free! We are also able to cover competition fees and traveling expeneses to a certain degree, though both of these things do require that you actively participate in whatever event is at hand."
+        },
+        {
+            "question": "Is there any sort of laptop/computer requirement at meetings?",
+            "answer": "We do not require you to have a laptop, but almost all meetings work a lot better if you are able to bring a personal computer that you can follow along with. If you don't have a laptop, the club has a few spares that you will be able to borrow, but a large advantage of having your own is that you'll be able to continue experimenting while not at the meeting."
+        },
+        {
+            "question": "Do you help students find jobs in cybersecurity?",
+            "answer": "Yes! We frequently attend conferences (well, pre-covid, crossing our fingers for this next school year) which allow you to connect with employers, and we also occasionally have companies that come present a meeting and speak about what they do."
+        },
+        {
+            "question": "Are you going to have a meeting about X, Y or Z?",
+            "answer": "With a lot of the more common cyber topics there is likely a plan for someone to talk about it at some point, but if there is something that you really wanna hear spoken about at a meeting, we actually invite <em>you</em> to talk about it! The absolute best way to learn about a topic is giving a presentation on it yourself, and since we are a peer learning organization we are always looking for club members that are willing to present on topics they are excited about."
+        },
+        {
+            "question": "Is there any sort of attendance requirement?",
+            "answer": "Nope! Feel free to come to whatever weekly meetings interest you, though we do recommend that you attend as many as possible since cybersecurity is a <em>very</em> large field and whatever information you can suck up will almost certainly help you down the line."
+        },
+        {
+            "question": "Is there any sort of competition participation requirement?",
+            "answer": "Nope! We are not registered as a competative organization, but participating in competitions is one of the single best ways to expand your cybersecurity knowledge. But If you sign up for a competition and we pay for your fee, you <em>need</em> to compete (circumstance permitting). Another bonus of frequent participation is that it gives you higher priority for trips/competitions that have a limited number of slots."
+        },
+        {
+            "question": "How do I get up to QBB 422?",
+            "answer": "After 5PM there is a chance the elevators will require badge access to go to the 4th floor, send a message in the Discord and someone will be able to call the elevator while you're in it and it will bring you up."
+        },
+        {
+            "question": "Do I have to wear a mask at meetings?",
+            "answer": "Yes. Unless we are meeting outside, you are <b>required</b> to wear a mask at CSA meetings."
         }
     ]
 }
