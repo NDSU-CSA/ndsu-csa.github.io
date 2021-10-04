@@ -89,9 +89,8 @@
         {
             "week": 6,
             "date": "Oct. 6th",
-            "topic": "[No meeting]",
-            "presenter": "-",
-            "event": "Cybercon Conference, Oct. 5th & 6th"
+            "topic": "Reverse Engineering",
+            "presenter": "Jack"
         },
         {
             "week": 7,
