@@ -95,15 +95,15 @@
         {
             "week": 7,
             "date": "Oct. 13th",
-            "topic": "Intro to Reconnaissance",
-            "presenter": "Devin",
+            "topic": "[No Meeting]",
+            "presenter": "-",
             "event": "NCL Preseason, Oct. 11th-18th"
         },
         {
             "week": 8,
             "date": "Oct. 20th",
-            "topic": "[TBD]",
-            "presenter": "[TBD]",
+            "topic": "Intro to Reconnaissance",
+            "presenter": "Devin",
             "event": "NCL Individual, Oct. 22nd-24th"
         },
         {
@@ -122,8 +122,8 @@
         {
             "week": 11,
             "date": "Nov. 10th",
-            "topic": "[TBD]",
-            "presenter": "[TBD]",
+            "topic": "Ransomware by BCBSND",
+            "presenter": "Chad Gross & Sabrina Cogger",
             "event": "Cyberforce, Nov. 12th & 13th"
         },
         {
