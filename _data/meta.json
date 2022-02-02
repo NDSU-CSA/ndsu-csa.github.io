@@ -1,20 +1,20 @@
 {
     "officers": [
         {
-            "name": "Jack Hance",
-            "email": "jack.hance@ndsu.edu"
-        },
-        {
             "name": "Cayden Schmandt",
             "email": "cayden.schmandt@ndsu.edu"
         },
         {
-            "name": "Cameron Kolodjski",
-            "email": "cameron.kolodjski@ndsu.edu"
+            "name": "Benjamin Clark",
+            "email": "benjamin.clark.3@ndsu.edu"
         },
         {
-            "name": "Devin Gluesing",
-            "email": "devin.gluesing@ndsu.edu"
+            "name": "Thomas Bye",
+            "email": "thomas.j.bye@ndsu.edu"
+        },
+        {
+            "name": "Jonathan Rivard",
+            "email": "jonathan.m.rivard@ndsu.edu"
         }
     ],
     "schedule": [
@@ -57,99 +57,113 @@
     "semester_schedule": [
         {
             "week": 1,
-            "date": "Sept. 1st",
-            "topic": "Lock Picking & Pizza",
-            "presenter": "Jack",
-            "event": "Involvement Expo, Sept. 1st"
+            "date": "Jan. 19th",
+            "topic": "Over the Wire",
+          "presenter": "Cayden",
+          "event" : "Officer Nominations"
+            
         },
         {
             "week": 2,
-            "date": "Sept. 8th",
-            "topic": "Into to Soldering",
-            "presenter": "Mac"
+            "date": "Jan. 26th",
+            "topic": "Lockpicking and Pizza",
+          "presenter": "Jack",
+          "event" : "Officer Elections"
         },
         {
             "week": 3,
-            "date": "Sept. 15th",
-            "topic": "Intro to Linux",
-            "presenter": "Cameron"
+            "date": "Feb. 2nd",
+            "topic": "Cyber Show and Tell",
+            "presenter": "John"
         },
         {
             "week": 4,
-            "date": "Sept. 22nd",
-            "topic": "Wifi Hacking and Wireshark",
-            "presenter": "Cayden"
+            "date": "Feb. 9th",
+            "topic": "Intro to Metasploit",
+            "presenter": "TBD"
         },
         {
             "week": 5,
-            "date": "Sept. 29th",
-            "topic": "NCL Prep",
-            "presenter": "Thomas"
+            "date": "Feb. 16th",
+            "topic": "Hack the Box",
+            "presenter": "Cayden"
         },
         {
             "week": 6,
-            "date": "Oct. 6th",
-            "topic": "Reverse Engineering",
-            "presenter": "Jack"
+            "date": "Feb. 23rd",
+            "topic": "Your First Homelab",
+            "presenter": "Gabe, Jack, and Kasty"
         },
         {
             "week": 7,
-            "date": "Oct. 13th",
-            "topic": "[No Meeting]",
-            "presenter": "-",
-            "event": "NCL Preseason, Oct. 11th-18th"
+            "date": "Mar. 2nd",
+            "topic": "Windows Red Team",
+            "presenter": "Cayden and Devin"
         },
         {
             "week": 8,
-            "date": "Oct. 20th",
-            "topic": "Intro to Reconnaissance",
-            "presenter": "Devin",
-            "event": "NCL Individual, Oct. 22nd-24th"
+            "date": "Mar. 9th",
+            "topic": "Microsoft Word Malware",
+            "presenter": "TBD"
         },
         {
             "week": 9,
-            "date": "Oct. 27th",
-            "topic": "Roomba Hacking",
-            "presenter": "Elliot"
+            "date": "Mar. 16th",
+            "topic": "Alumni Presentation",
+            "presenter": "Demi"
         },
         {
             "week": 10,
-            "date": "Nov. 3rd",
-            "topic": "The Dark Web, Crypto, and Privacy",
-            "presenter": "Noah",
-            "event": "NCL Team, Nov. 5th-7th"
+            "date": "Mar. 23rd",
+            "topic": "Tools of the Trade",
+            "presenter": "Cayden"
         },
         {
             "week": 11,
-            "date": "Nov. 10th",
-            "topic": "Ransomware by BCBSND",
-            "presenter": "Chad Gross & Sabrina Cogger",
-            "event": "Cyberforce, Nov. 12th & 13th"
+            "date": "Mar. 30th",
+            "topic": "Student Speaker",
+            "presenter": "TBD",
+            "event": "NCL Preseason Mar. 28th - Apr. 4th"
         },
         {
             "week": 12,
-            "date": "Nov. 17th",
-            "topic": "Intro to Game Hacking",
-            "presenter": "Jack"
+            "date": "Apr. 6th",
+            "topic": "Making the Most of Your Terminal",
+          "presenter": "Gabe",
+          "event" : "NCL Individual Game Apr. 8th - 10th"
         },
         {
             "week": 13,
-            "date": "Nov. 24th",
-            "topic": "[No Meeting]",
-            "presenter": "-"
+            "date": "Apr. 13th",
+            "topic": "TBD",
+            "presenter": "TBD"
         },
         {
             "week": 14,
-            "date": "Dec. 1st",
-            "topic": "CSA Alumni Presentation",
-            "presenter": "Demitrius Fenton"
+            "date": "Apr. 20th",
+            "topic": "TBD",
+          "presenter": "TBD",
+          "event": "NCL Team Game Apr. 22nd - Apr. 24th"
         },
-        {
-            "week": 15,
-            "date": "Dec. 8th",
-            "topic": "Hacker Movie Night",
-            "presenter": "-"
-        }
+      {
+        "week": 15,
+        "date": "Apr. 27th",
+        "topic": "TBD",
+        "presenter": "TBD"
+      },
+      {
+        "week": 16,
+        "date": "May 4th",
+        "topic": "Hacker Movie Night",
+        "presenter": "-"
+
+      },
+      {
+        "week": 17,
+        "date": "May 11th",
+        "topic": "Lol no",
+        "presenter": "-"
+      }
     ],
     "faq": [
         {
