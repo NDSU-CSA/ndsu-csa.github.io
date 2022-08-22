@@ -57,110 +57,107 @@
     "semester_schedule": [
         {
             "week": 1,
-            "date": "Jan. 19th",
-            "topic": "Over the Wire",
-          "presenter": "Cayden",
-          "event" : "Officer Nominations"
+            "date": "Aug. 24th",
+            "topic": "Semester Planning",
+          "presenter": "Cayden"
+          
             
         },
         {
             "week": 2,
-            "date": "Jan. 26th",
-            "topic": "Lockpicking and Pizza",
-          "presenter": "Jack",
-          "event" : "Officer Elections"
+            "date": "Aug. 31st",
+            "topic": "Intro to Lockpicking",
+          "presenter": "",
+          "event":"Pizza"
         },
         {
             "week": 3,
-            "date": "Feb. 2nd",
-            "topic": "Cyber Show and Tell",
-            "presenter": "John"
+            "date": "Spet. 7th",
+            "topic": "",
+            "presenter": ""
         },
         {
             "week": 4,
-            "date": "Feb. 9th",
-            "topic": "Intro to Metasploit",
-            "presenter": "Cayden"
+            "date": "Sept. 14th",
+            "topic": "",
+            "presenter": ""
         },
         {
             "week": 5,
-            "date": "Feb. 16th",
-            "topic": "Hack the Box",
-            "presenter": "Cayden"
+            "date": "Sept. 21st",
+            "topic": "",
+            "presenter": ""
         },
         {
             "week": 6,
-            "date": "Feb. 23rd",
-            "topic": "Your First Homelab",
-            "presenter": "Gabe, Jack, and Kasti"
+            "date": "Sept. 28th",
+            "topic": "",
+            "presenter": ""
         },
         {
             "week": 7,
-            "date": "Mar. 2nd",
-            "topic": "Windows Red Team",
-            "presenter": "Cayden and Devin"
+            "date": "Oct. 5th",
+            "topic": "",
+            "presenter": ""
         },
         {
             "week": 8,
-            "date": "Mar. 9th",
-            "topic": "Microsoft Word Malware",
-            "presenter": "TBD"
+            "date": "Oct. 12th",
+            "topic": "",
+            "presenter": ""
         },
         {
             "week": 9,
-            "date": "Mar. 16th",
-            "topic": "Alumni Presentation",
-            "presenter": "Demi"
+            "date": "Oct. 19th",
+            "topic": "",
+            "presenter": ""
         },
         {
             "week": 10,
-            "date": "Mar. 23rd",
-            "topic": "Tools of the Trade",
-            "presenter": "Cayden"
+            "date": "Oct. 26th",
+            "topic": "",
+            "presenter": ""
         },
         {
             "week": 11,
-            "date": "Mar. 30th",
-            "topic": "Student Speaker",
-            "presenter": "TBD",
-            "event": "NCL Preseason Mar. 28th - Apr. 4th"
+            "date": "Nov. 2nd",
+            "topic": "",
+            "presenter": ""
         },
         {
             "week": 12,
-            "date": "Apr. 6th",
-            "topic": "Making the Most of Your Terminal",
-          "presenter": "Gabe",
-          "event" : "NCL Individual Game Apr. 8th - 10th"
+            "date": "Nov. 9th",
+            "topic": "",
+          "presenter": ""
         },
         {
             "week": 13,
-            "date": "Apr. 13th",
-            "topic": "TBD",
-            "presenter": "TBD"
+            "date": "Nov. 16th",
+            "topic": "",
+            "presenter": ""
         },
         {
             "week": 14,
-            "date": "Apr. 20th",
-            "topic": "TBD",
-          "presenter": "TBD",
-          "event": "NCL Team Game Apr. 22nd - Apr. 24th"
+            "date": "Nov. 23rd",
+            "topic": "",
+          "presenter": ""
         },
       {
         "week": 15,
-        "date": "Apr. 27th",
-        "topic": "TBD",
-        "presenter": "TBD"
+        "date": "Nov. 30th",
+        "topic": "",
+        "presenter": ""
       },
       {
         "week": 16,
-        "date": "May 4th",
-        "topic": "Hacker Movie Night",
+        "date": "Dec. 7th",
+        "topic": "",
         "presenter": "-"
 
       },
       {
         "week": 17,
-        "date": "May 11th",
+        "date": "Dec. 14th",
         "topic": "Lol no",
         "presenter": "-"
       }
