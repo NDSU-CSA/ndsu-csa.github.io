@@ -67,99 +67,107 @@
             "week": 2,
             "date": "Aug. 31st",
             "topic": "Intro to Lockpicking",
-          "presenter": "",
+          "presenter": "Cayden",
           "event":"Pizza"
         },
         {
             "week": 3,
             "date": "Spet. 7th",
-            "topic": "",
-            "presenter": ""
+            "topic": "Intro to Linux/Virtual Machines",
+            "presenter": "John"
         },
         {
             "week": 4,
             "date": "Sept. 14th",
-            "topic": "",
-            "presenter": ""
+            "topic": "Wi-Fi Hacking",
+            "presenter": "Cayden"
         },
         {
             "week": 5,
             "date": "Sept. 21st",
-            "topic": "",
-            "presenter": ""
+            "topic": "Employer Presentation",
+            "presenter": "~",
+            "event":"National Cyber Cup"
         },
         {
             "week": 6,
             "date": "Sept. 28th",
-            "topic": "",
-            "presenter": ""
+            "topic": "Making a Faraday Cage/Soldering",
+            "presenter": "Jack"
         },
         {
             "week": 7,
             "date": "Oct. 5th",
-            "topic": "",
-            "presenter": ""
+            "topic": "NCL Prep/Learn how to Hack",
+            "presenter": "Cayden",
+            "event":"BSides Portland"
         },
         {
             "week": 8,
             "date": "Oct. 12th",
-            "topic": "",
-            "presenter": ""
+            "topic": "Masterkeying",
+            "presenter": "Cayden",
+            "event":"NCL Practice Game 10th-17th"
         },
         {
             "week": 9,
             "date": "Oct. 19th",
-            "topic": "",
-            "presenter": ""
+            "topic": "Cryptography",
+            "presenter": "Ben",
+            "event":"NCL Individual 21st-23rd"
         },
         {
             "week": 10,
             "date": "Oct. 26th",
-            "topic": "",
-            "presenter": ""
+            "topic": "Hack the Box",
+            "presenter": "Cayden"
         },
         {
             "week": 11,
             "date": "Nov. 2nd",
-            "topic": "",
-            "presenter": ""
+            "topic": "Useless but Fun Tech.",
+            "presenter": "Thomas",
+            "event":"NCL Team 4th-6th"
         },
         {
             "week": 12,
             "date": "Nov. 9th",
-            "topic": "",
-          "presenter": ""
+            "topic": "Phishing/Email Spoofing",
+          "presenter": "Cameron"
         },
         {
             "week": 13,
             "date": "Nov. 16th",
-            "topic": "",
-            "presenter": ""
+            "topic": "Homelabs and how to Make your Own",
+            "presenter": "Jack & Gabe"
         },
         {
             "week": 14,
             "date": "Nov. 23rd",
-            "topic": "",
-          "presenter": ""
+            "topic": "~",
+          "presenter": "~",
+          "event":"Thanksgiving Week"
         },
       {
         "week": 15,
         "date": "Nov. 30th",
-        "topic": "",
-        "presenter": ""
+        "topic": "Hacker Show & Tell",
+        "presenter": "~"
       },
       {
         "week": 16,
         "date": "Dec. 7th",
-        "topic": "",
-        "presenter": ""
+        "topic": "~",
+        "presenter": "~",
+        "event":"Dead Week"
 
       },
       {
         "week": 17,
         "date": "Dec. 14th",
-        "topic": "",
-        "presenter": ""
+        "topic": "Hacker Movie Night",
+        "presenter": "~",
+        "event":"Finals Week"
       }
     ],
     "faq": [
