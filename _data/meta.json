@@ -5,16 +5,16 @@
             "email": "cayden.schmandt@ndsu.edu"
         },
         {
-            "name": "Benjamin Clark",
-            "email": "benjamin.clark.3@ndsu.edu"
-        },
-        {
-            "name": "Thomas Bye",
-            "email": "thomas.j.bye@ndsu.edu"
-        },
-        {
             "name": "Jonathan Rivard",
             "email": "jonathan.m.rivard@ndsu.edu"
+        },
+        {
+            "name": "Sydney Deaton",
+            "email": "sydney.deaton@ndsu.edu"
+        },
+        {
+            "name": "Danielle Hanson",
+            "email": "danielle.jean.hanson@ndsu.edu"
         }
     ],
     "schedule": [
@@ -35,7 +35,7 @@
         },
         {
             "weekday": "wednesday",
-            "whenwhere": "6:00PM at QBB 422",
+            "whenwhere": "6:00PM in QBB 422",
             "description": "Weekly Mainline Meeting"
         },
         {
@@ -57,106 +57,107 @@
     "semester_schedule": [
         {
             "week": 1,
-            "date": "Aug. 24th",
+            "date": "Aug. 23rd",
             "topic": "Semester Planning",
-          "presenter": "Cayden"
+          "presenter": "~"
           
             
         },
         {
             "week": 2,
-            "date": "Aug. 31st",
-            "topic": "Intro to Lockpicking",
+            "date": "Aug. 30th",
+            "topic": "Kickoff, Intro to Lockpicking",
           "presenter": "Cayden",
-          "event":"Pizza"
+          "event":"Pizza at meeting!"
         },
         {
             "week": 3,
-            "date": "Spet. 7th",
-            "topic": "Intro to Linux/Virtual Machines",
-            "presenter": "John"
+            "date": "Sept. 6th",
+            "topic": "Wifi Cracking",
+            "presenter": "Matt"
         },
         {
             "week": 4,
-            "date": "Sept. 14th",
-            "topic": "Wi-Fi Hacking",
-            "presenter": "Cayden"
+            "date": "Sept. 13th",
+            "topic": "How to make a zipbomb",
+            "presenter": "John"
         },
         {
             "week": 5,
-            "date": "Sept. 21st",
-            "topic": "Employer Presentation",
-            "presenter": "~",
-            "event":"National Cyber Cup"
+            "date": "Sept. 20th",
+            "topic": "DIY Yagi Antennas",
+            "presenter": "Jack & Sydney",
+            "event":""
         },
         {
             "week": 6,
-            "date": "Sept. 28th",
-            "topic": "Making a Faraday Cage/Soldering",
-            "presenter": "Jack"
+            "date": "Sept. 27th",
+            "topic": "Go Phish",
+            "presenter": "Cameron"
         },
         {
             "week": 7,
-            "date": "Oct. 5th",
-            "topic": "NCL Prep/Learn how to Hack",
-            "presenter": "Cayden",
+            "date": "Oct. 4th",
+            "topic": "Cold Boot Attacks",
+            "presenter": "Jack",
             "event":"BSides Portland"
         },
         {
             "week": 8,
-            "date": "Oct. 12th",
-            "topic": "Masterkeying",
+            "date": "Oct. 11th",
+            "topic": "NCL Prep",
             "presenter": "Cayden",
-            "event":"NCL Practice Game 10th-17th"
+            "event":"NCL Practice Game 9th-15th"
         },
         {
             "week": 9,
-            "date": "Oct. 19th",
-            "topic": "Cryptography",
-            "presenter": "Ben",
-            "event":"NCL Individual 21st-23rd"
+            "date": "Oct. 18th",
+            "topic": "TCP/IP Byte by Byte",
+            "presenter": "John",
+            "event":"NCL Individual 20th-22nd"
         },
         {
             "week": 10,
-            "date": "Oct. 26th",
-            "topic": "Hack the Box",
-            "presenter": "Cayden"
+            "date": "Oct. 25th",
+            "topic": "nmap Deepdive",
+            "presenter": "John",
+            "event":"Halloween Party 27th"
         },
         {
             "week": 11,
-            "date": "Nov. 2nd",
-            "topic": "Useless but Fun Tech.",
-            "presenter": "Thomas",
-            "event":"NCL Team 4th-6th"
+            "date": "Nov. 1st",
+            "topic": "~",
+            "presenter": "~",
+            "event":"NCL Team 3rd-5th"
         },
         {
             "week": 12,
-            "date": "Nov. 9th",
-            "topic": "Phishing/Email Spoofing",
-          "presenter": "Cameron"
+            "date": "Nov. 8th",
+            "topic": "Deepfakes",
+          "presenter": "Matt"
         },
         {
             "week": 13,
-            "date": "Nov. 16th",
-            "topic": "Homelabs and how to Make your Own",
-            "presenter": "Jack & Gabe"
+            "date": "Nov. 15th",
+            "topic": "Officer Elections",
+            "presenter": "~"
         },
         {
             "week": 14,
-            "date": "Nov. 23rd",
+            "date": "Nov. 22nd",
             "topic": "~",
           "presenter": "~",
           "event":"Thanksgiving Week"
         },
       {
         "week": 15,
-        "date": "Nov. 30th",
-        "topic": "Hacker Show & Tell",
+        "date": "Nov. 29th",
+        "topic": "Movie Night",
         "presenter": "~"
       },
       {
         "week": 16,
-        "date": "Dec. 7th",
+        "date": "Dec. 6th",
         "topic": "~",
         "presenter": "~",
         "event":"Dead Week"
@@ -164,8 +165,8 @@
       },
       {
         "week": 17,
-        "date": "Dec. 14th",
-        "topic": "Hacker Movie Night",
+        "date": "Dec. 13th",
+        "topic": "~",
         "presenter": "~",
         "event":"Finals Week"
       }
@@ -185,7 +186,7 @@
         },
         {
             "question": "Do you help students find jobs in cybersecurity?",
-            "answer": "Yes! We frequently attend conferences (well, pre-covid, crossing our fingers for this next school year) which allow you to connect with employers, and we also occasionally have companies that come present a meeting and speak about what they do."
+            "answer": "Yes! We frequently attend conferences which allow you to connect with employers, and we also occasionally have companies that come present a meeting and speak about what they do."
         },
         {
             "question": "Are you going to have a meeting about X, Y or Z?",
