@@ -1,12 +1,12 @@
 {
     "officers": [
         {
-            "name": "Cayden Schmandt",
-            "email": "cayden.schmandt@ndsu.edu"
+            "name": "Cameron Kolodjski",
+            "email": "cameron.kolodjski@ndsu.edu"
         },
         {
-            "name": "Jonathan Rivard",
-            "email": "jonathan.m.rivard@ndsu.edu"
+            "name": "Matthew Tassava",
+            "email": "matthew.tassava@ndsu.edu"
         },
         {
             "name": "Sydney Deaton",
@@ -57,7 +57,7 @@
     "semester_schedule": [
         {
             "week": 1,
-            "date": "Aug. 23rd",
+            "date": "Jan. 10th",
             "topic": "Semester Planning",
           "presenter": "~"
           
@@ -65,107 +65,112 @@
         },
         {
             "week": 2,
-            "date": "Aug. 30th",
-            "topic": "Kickoff, Intro to Lockpicking",
-          "presenter": "Cayden",
-          "event":"Pizza at meeting!"
+            "date": "Jan. 17th",
+            "topic": "Open-Source Intelligence",
+          "presenter": "Cameron",
+          "event":"NCL Sign-Ups Begin"
         },
         {
             "week": 3,
-            "date": "Sept. 6th",
-            "topic": "Wifi Cracking",
-            "presenter": "Matt"
+            "date": "Jan. 24th",
+            "topic": "RFID",
+            "presenter": "Cayden",
+            "event":"Last Call for NCL Sign-Ups! (Due by Friday)"
         },
         {
             "week": 4,
-            "date": "Sept. 13th",
-            "topic": "How to make a zipbomb",
-            "presenter": "John"
-        },
-        {
-            "week": 5,
-            "date": "Sept. 20th",
-            "topic": "DIY Yagi Antennas",
-            "presenter": "Jack & Sydney",
-            "event":""
-        },
-        {
-            "week": 6,
-            "date": "Sept. 27th",
-            "topic": "Go Phish",
+            "date": "Jan. 31st",
+            "topic": "Intro to Linux / Kali VM Setup",
             "presenter": "Cameron"
         },
         {
+            "week": 5,
+            "date": "Feb. 7th",
+            "topic": "Cryptography",
+            "presenter": "Cameron"
+        },
+        {
+            "week": 6,
+            "date": "Feb. 14th",
+            "topic": "WiFi Hacking Part 1",
+            "presenter": "Matt"
+        },
+        {
             "week": 7,
-            "date": "Oct. 4th",
-            "topic": "Cold Boot Attacks",
-            "presenter": "Jack",
-            "event":"BSides Portland"
+            "date": "Feb. 21st",
+            "topic": "WiFi Hacking Part 2",
+            "presenter": "Cayden"
         },
         {
             "week": 8,
-            "date": "Oct. 11th",
-            "topic": "NCL Prep",
-            "presenter": "Cayden",
-            "event":"NCL Practice Game 9th-15th"
+            "date": "Feb. 28th",
+            "topic": "Hacker Show & Tell",
+            "presenter": "You!",
+            "event":"(if there's no interest, this will be a homelab meeting instead)"
         },
         {
             "week": 9,
-            "date": "Oct. 18th",
-            "topic": "TCP/IP Byte by Byte",
-            "presenter": "John",
-            "event":"NCL Individual 20th-22nd"
+            "date": "Mar. 6th",
+            "topic": "~",
+            "presenter": "~",
+            "event":"Spring Break"
         },
         {
             "week": 10,
-            "date": "Oct. 25th",
-            "topic": "nmap Deepdive",
-            "presenter": "John",
-            "event":"Halloween Party 28th"
+            "date": "Mar. 13th",
+            "topic": "Network Traffic Analysis",
+            "presenter": "Matt"
         },
         {
             "week": 11,
-            "date": "Nov. 1st",
-            "topic": "~",
-            "presenter": "~",
-            "event":"NCL Team 3rd-5th"
+            "date": "Mar. 20th",
+            "topic": "Tamper-Evident Bypass",
+            "presenter": "Dani"
         },
         {
             "week": 12,
-            "date": "Nov. 8th",
-            "topic": "Deepfakes",
-          "presenter": "Matt"
+            "date": "Mar. 27th",
+            "topic": "TBD",
+            "presenter": "TBD",
+            "event":"NCL Practice Game 25th-31st"
         },
         {
             "week": 13,
-            "date": "Nov. 15th",
-            "topic": "Officer Elections",
-            "presenter": "~"
+            "date": "Apr. 3rd",
+            "topic": "NCL Preparation",
+            "presenter": "Cameron",
+            "event":"NCL Individual Game 5th-7th"
         },
         {
             "week": 14,
-            "date": "Nov. 22nd",
-            "topic": "~",
-          "presenter": "~",
-          "event":"Thanksgiving Week"
+            "date": "Apr. 10th",
+            "topic": "TBD",
+          "presenter": "TBD"
         },
       {
         "week": 15,
-        "date": "Nov. 29th",
-        "topic": "Movie Night",
-        "presenter": "~"
+        "date": "Apr. 17th",
+        "topic": "NCL Preparation",
+        "presenter": "Cameron",
+        "event":"NCL Team Game 19th-21st"
       },
       {
         "week": 16,
-        "date": "Dec. 6th",
-        "topic": "~",
-        "presenter": "~",
-        "event":"Dead Week"
+        "date": "Apr. 24th",
+        "topic": "Rubber Duckies",
+        "presenter": "Matt"
 
       },
       {
         "week": 17,
-        "date": "Dec. 13th",
+        "date": "May 1st",
+        "topic": "Movie Night",
+        "presenter": "~",
+        "event":"Dead Week"
+      },
+      {
+        "week": 18,
+        "date": "May 8th",
         "topic": "~",
         "presenter": "~",
         "event":"Finals Week"
