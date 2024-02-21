@@ -98,15 +98,15 @@
         {
             "week": 7,
             "date": "Feb. 21st",
-            "topic": "WiFi Hacking Part 2",
+            "topic": "TryHackMe / HTB",
             "presenter": "Cayden"
         },
         {
             "week": 8,
             "date": "Feb. 28th",
-            "topic": "Hacker Show & Tell",
-            "presenter": "You!",
-            "event":"(if there's no interest, this will be a homelab meeting instead)"
+            "topic": "WiFi Hacking Part 2",
+            "presenter": "Cayden",
+            "event":""
         },
         {
             "week": 9,
