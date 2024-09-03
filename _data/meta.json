@@ -57,7 +57,7 @@
     "semester_schedule": [
         {
             "week": 1,
-            "date": "Jan. 10th",
+            "date": "Aug. 28th",
             "topic": "Semester Planning",
           "presenter": "~"
           
@@ -65,116 +65,107 @@
         },
         {
             "week": 2,
-            "date": "Jan. 17th",
-            "topic": "Open-Source Intelligence",
-          "presenter": "Cameron",
-          "event":"NCL Sign-Ups Begin"
+            "date": "Sep. 4th",
+            "topic": "Lockpicking",
+          "presenter": "Cameron"
         },
         {
             "week": 3,
-            "date": "Jan. 24th",
-            "topic": "RFID",
-            "presenter": "Cayden",
-            "event":"Last Call for NCL Sign-Ups! (Due by Friday)"
+            "date": "Sep. 11th",
+            "topic": "Intro to Linux / Kali VM Setup",
+            "presenter": "Cameron",
+            "event":"NCL Sign-Ups Begin"
         },
         {
             "week": 4,
-            "date": "Jan. 31st",
-            "topic": "Intro to Linux / Kali VM Setup",
-            "presenter": "Cameron"
+            "date": "Sep. 18st",
+            "topic": "Guest Speaker",
+            "presenter": "(secret)"
         },
         {
             "week": 5,
-            "date": "Feb. 7th",
+            "date": "Sep. 25th",
             "topic": "Cryptography",
-            "presenter": "Cameron"
+            "presenter": "Dani"
         },
         {
             "week": 6,
-            "date": "Feb. 14th",
-            "topic": "WiFi Hacking Part 1",
+            "date": "Oct. 2nd",
+            "topic": "WiFi Hacking",
             "presenter": "Matt"
         },
         {
             "week": 7,
-            "date": "Feb. 21st",
-            "topic": "TryHackMe / HTB",
-            "presenter": "Cayden"
+            "date": "Oct. 9th",
+            "topic": "OSINT",
+            "presenter": "Cameron"
         },
         {
             "week": 8,
-            "date": "Feb. 28th",
-            "topic": "WiFi Hacking Part 2",
-            "presenter": "Cayden",
-            "event":""
+            "date": "Oct. 16th",
+            "topic": "NCL Practice Game Q&A Sesh",
+            "presenter": "Cameron",
+            "event":"Fargo BSides 19th\nNCL Practice Game 14th-20th"
         },
         {
             "week": 9,
-            "date": "Mar. 6th",
-            "topic": "~",
+            "date": "Oct. 23rd",
+            "topic": "NCL Preparation",
             "presenter": "~",
-            "event":"Spring Break"
+            "event":"NCL Individual Game 25th-27th"
         },
         {
             "week": 10,
-            "date": "Mar. 13th",
-            "topic": "TBD",
-            "presenter": "TBD"
+            "date": "Oct. 30th",
+            "topic": "Cyber Show-And-Tell",
+            "presenter": "Anyone"
         },
         {
             "week": 11,
-            "date": "Mar. 20th",
-            "topic": "Network Traffic Analysis",
-            "presenter": "Matt"
+            "date": "Nov. 6th",
+            "topic": "Tamper-Evident Bypass",
+            "presenter": "Dani",
+            "event":"NCL Team Game 8th-10th"
         },
         {
             "week": 12,
-            "date": "Mar. 27th",
-            "topic": "Tamper-Evident Bypass",
-            "presenter": "Dani",
-            "event":"NCL Practice Game 25th-31st"
+            "date": "Nov. 13th",
+            "topic": "Tor / Dark Web",
+            "presenter": "Cameron"
         },
         {
             "week": 13,
-            "date": "Apr. 3rd",
-            "topic": "NCL Preparation",
-            "presenter": "Cameron",
-            "event":"NCL Individual Game 5th-7th"
+            "date": "Nov. 20th",
+            "topic": "Cyber ARG",
+            "presenter": "Matt"
         },
         {
             "week": 14,
-            "date": "Apr. 10th",
-            "topic": "TBD",
-          "presenter": "TBD"
+            "date": "Nov. 27th",
+            "topic": "~",
+            "presenter": "~",
+            "event": "Fall Break 27th-29th"
         },
-      {
-        "week": 15,
-        "date": "Apr. 17th",
-        "topic": "NCL Preparation",
-        "presenter": "Cameron",
-        "event":"NCL Team Game 19th-21st"
-      },
-      {
-        "week": 16,
-        "date": "Apr. 24th",
-        "topic": "Rubber Duckies",
-        "presenter": "Matt"
-
-      },
-      {
-        "week": 17,
-        "date": "May 1st",
-        "topic": "Movie Night",
-        "presenter": "~",
-        "event":"Dead Week"
-      },
-      {
-        "week": 18,
-        "date": "May 8th",
-        "topic": "~",
-        "presenter": "~",
-        "event":"Finals Week"
-      }
+        {
+            "week": 15,
+            "date": "Dec. 4th",
+            "topic": "IoT Cyber Audit Frameworks",
+            "presenter": "Dani"
+        },
+        {
+            "week": 16,
+            "date": "Dec. 11th",
+            "topic": "Hacker Movie Night",
+            "presenter": "~",
+            "event": "Dead Week"
+        },
+        {
+            "week": 17,
+            "date": "Dec. 18th",
+            "topic": "~",
+            "presenter": "~",
+            "event": "Finals Week"
+        }
     ],
     "faq": [
         {
