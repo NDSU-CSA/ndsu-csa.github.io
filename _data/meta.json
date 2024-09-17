@@ -78,15 +78,15 @@
         },
         {
             "week": 4,
-            "date": "Sep. 18st",
-            "topic": "Guest Speaker",
-            "presenter": "(secret)"
+            "date": "Sep. 18th",
+            "topic": "Cryptography",
+            "presenter": "Dani"
         },
         {
             "week": 5,
             "date": "Sep. 25th",
-            "topic": "Cryptography",
-            "presenter": "Dani"
+            "topic": "TBD",
+            "presenter": "TBD"
         },
         {
             "week": 6,
